@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* =======================================
+
+    Base CSS
+
+========================================== */
+
+html, body {
+    background: #000000;
+    color: #FFFFFF;
+    line-height:100%;
+}
+
+body {
+}
+
+/* IE */
+@font-face {
+    font-family: "FAMania";
+    src: url(./font/FAMania.eot);
+}
+
+/* Firefox, Opera, Safari */
+@font-face {
+    font-family: "FAMania";
+    src: url(./font/FAMania.ttf) format("truetype");
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 0px;
+}
+
+a:hover {
+    color: none;
+    border-bottom: 1px solid;
+}
+
+a:visited {
+    color: none;
+}
+
+/* #wrapper #header #headerAccount li a:hover { */
+/*     color: none; */
+/*     position: relative; */
+/*     border-bottom: 1px dotted;         */
+/* } */
+
+/* #wrapper #header #headerAccount li a:visited { */
+/*     color: none; */
+/* } */

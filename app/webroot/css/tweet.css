@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* =======================================
+
+   tweet CSS
+
+========================================== */
+
+/*  tweetBlock
+========================================== */
+
+#tweetBlock {
+    margin-top: 5px;
+    padding: 10px 25px;
+}
+
+#tweetBlock table {
+    margin: 10px 0 10px 20px;
+}
+
+#tweetBlock table tr {
+}
+
+#tweetBlock table th {
+    padding: 5px;
+}
+
+#tweetBlock table td {
+    padding: 5px 5px 10px 5px;
+}
+
+#tweetBlock input {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+#tweetBlock textarea {
+    background: #000000;
+    color: #FFFFFF;
+    height: 100px;
+    resize: vertical;
+}
+
+#tweetBlock ul{
+}
+
+#tweetBlock ul li{
+    padding: 0 0 5px 0;
+}
+
+#tweetBlock ul li input{
+    vertical-align: middle;
+}
+
+#tweetBlock ul li label{
+    margin-left: 10px;
+}

@@ -1,0 +1,371 @@
+@charset "utf-8";
+
+/* =======================================
+
+    Structure CSS
+
+========================================== */
+
+/*  Main structure
+========================================== */
+
+/* IE */
+@font-face {
+    font-family: "FAMania";
+    src: url(./font/FAMania.eot);
+}
+
+/* Firefox, Opera, Safari */
+@font-face {
+    font-family: "FAMania";
+    src: url(./font/FAMania.ttf) format("truetype");
+}
+
+html, body {
+    background: #000000;
+    color: #FFFFFF;
+    line-height:100%;
+    height: 100%;
+}
+
+body {
+}
+
+#wrapper {
+    /* height: 100%; */
+    position: relative;
+    /* height: auto !important; */
+    /* min-height: 100%; */
+    margin: 0 auto;
+    padding: 0;
+    width: 920px;
+}
+
+/* #wrapper #header { */
+/*     position: relative; */
+/*     padding: 15px 10px; */
+/*     background: url(../../images/body_bg_02.jpg) repeat-x; */
+/* } */
+
+#wrapper #contents {
+    margin: 30px 0 0 0;
+    padding: 0 0 70px 0;
+}
+
+
+/*  TOPページ
+========================================== */
+
+#wrapper #contents #topTop {
+    margin: 100px 0 50px 250px;
+}
+
+#wrapper #contents #topBottom {
+    margin: 60px 0 0 350px;
+}
+
+#wrapper #contents #topBottom ul{
+    margin: 15px 0 0 20px;
+}
+
+#wrapper #contents #topBottom ul li{
+    padding: 5px 0;
+}
+
+#wrapper #contents #topBottom ul li{
+    padding: 5px 0;
+}
+
+#wrapper #contents #topBottom ul li input{
+    vertical-align: middle;
+}
+
+#wrapper #contents #topBottom ul li label{
+    margin-left: 10px;
+}
+
+
+/*  マイページ
+========================================== */
+
+#wrapper #contents #contentsNavi {
+    float: left;
+    display: inline;
+    width: 290px;
+}
+
+#wrapper #contents #contentsMain {
+    float: right;
+    display: inline;
+    width: 620px;
+    margin-left: 10px;
+}
+
+#wrapper #contents:after { /* for Modern Browser */
+    content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+/*  各ブロック
+========================================== */
+/* descBlock */
+#wrapper #contents #descBlock {
+    line-height: 1.3;
+}
+
+/* profileBlock */
+#wrapper #contents #contentsNavi fieldset#profileBlock {
+    border: solid 3px;
+    padding: 0px 10px 20px 10px;
+    margin-top: 20px;
+    /* text-align: center; */
+    /* padding: 20px 0px; */
+}
+
+#wrapper #contents #contentsNavi fieldset#profileBlock ul {
+}
+
+#wrapper #contents #contentsNavi fieldset#profileBlock ul li {
+    white-space: nowrap;
+    text-align: center;    
+    float: left;
+    display: inline;
+}
+
+#wrapper #contents #contentsNavi fieldset#profileBlock img {
+    margin-bottom: 20px;
+}
+
+#wrapper #contents #contentsNavi fieldset#profileBlock ul:after { /* for Modern Browser */
+    content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+/* sideHistoryBlock */
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock {
+    border: solid 3px;
+    padding: 0px 25px 20px 25px;
+    
+}
+
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock table {
+    margin: 0 0 0 20px;
+}
+
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock table tr {
+}
+
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock table th {
+    padding: 5px;
+}
+
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock table td {
+    padding: 5px;
+}
+
+#wrapper #contents #contentsNavi fieldset#sideHistoryBlock table tr.bottom_line {
+    border-bottom: 2px solid;
+}
+
+/* menuBlock */
+#wrapper #contents #contentsMain fieldset#menuBlock {
+    border: solid 3px;
+    padding: 0px 5px 20px 5px;
+    margin-top: 20px;
+}
+
+#wrapper #contents #contentsMain fieldset#menuBlock ul {
+    margin: 15px 0 0 50px;
+}
+
+#wrapper #contents #contentsMain fieldset#menuBlock ul li {
+    float: left;
+    display: inline;
+}
+
+#wrapper #contents #contentsMain #menuBlock ul:after { /* for Modern Browser */
+    content: "."; display: block; clear: both; height: 0; visibility: hidden; font-size: 0;
+}
+
+/* statusBlock */
+#wrapper #contents #contentsMain #statusBlock {
+    border: solid 3px;
+    padding: 0px 25px 20px 25px;
+    margin-top: 10px;
+}
+
+#wrapper #contents #contentsMain #statusBlock table {
+    margin: 10px 20px;
+    width: 530px;
+}
+
+#wrapper #contents #contentsMain #statusBlock table tr {
+}
+
+#wrapper #contents #contentsMain #statusBlock table th {
+    padding: 5px;
+}
+
+#wrapper #contents #contentsMain #statusBlock table td {
+    border: 2px solid;
+    padding: 5px;
+}
+
+/* characterBlock */
+#wrapper #contents #contentsMain #characterBlock {
+    border: solid 3px;
+    padding: 0px 25px 20px 25px;
+    margin-top: 10px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table#outer th {
+    padding: 5px;
+}
+
+#wrapper #contents #contentsMain #monsterFormBlock table#outer td {
+    width: 310px;
+    padding: 5px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table#inner {
+    padding: 5px 0;
+    width: 300px;
+    margin: 15px 0 10px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner tr {
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner th {
+    padding: 5px 5px 5px 5px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner td {
+    padding: 5px 5px 5px 5px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner td div#main_flag{
+    margin: 10px 0 0 5px;
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner td div#main_flag input{
+    vertical-align: middle;
+}
+
+#wrapper #contents #contentsMain #characterBlock table.inner td div#main_flag label{
+    margin-left: 10px;
+}
+
+#wrapper #contents #contentsMain #characterBlock input {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+/* historyBlock */
+#wrapper #contents #contentsMain #historyBlock {
+    border: solid 3px;
+    padding: 0px 25px 20px 25px;
+    margin-top: 10px;
+}
+
+#wrapper #contents #contentsMain #historyBlock table {
+    margin: 10px 0px;
+    width: 100%;
+}
+
+#wrapper #contents #contentsMain #historyBlock table tr {
+}
+
+#wrapper #contents #contentsMain #historyBlock table th {
+}
+
+#wrapper #contents #contentsMain #historyBlock table td {
+    text-align: center;
+    border: 2px solid;
+    /* padding: 5px; */
+}
+
+/* inner */
+#wrapper #contents #contentsMain #historyBlock table table.inner{
+}
+
+#wrapper #contents #contentsMain #historyBlock table table.inner tr {
+}
+
+#wrapper #contents #contentsMain #historyBlock table table.inner tr td{
+    text-align: center;
+    border: 0px;
+}
+
+/* userHistory */
+#wrapper #contents #contentsMain #historyBlock table#userHistory {
+    margin: 5px 0 0 25px;
+}
+
+#wrapper #contents #contentsMain #historyBlock table#userHistory tr {
+}
+
+#wrapper #contents #contentsMain #historyBlock table#userHistory th {
+}
+
+#wrapper #contents #contentsMain #historyBlock table#userHistory td {
+    border: 0px;
+    padding: 5px 0;
+}
+
+
+
+/* 対戦画面 */
+#wrapper #contents table#fight {
+    width: 100%;
+}
+
+#wrapper #contents table#fight tr {
+}
+
+#wrapper #contents table#fight td {
+    text-align: center;
+}
+
+#wrapper #contents table#fight td#vs {
+    width: 210px;
+    padding: 220px 0 0 0;
+}
+
+#wrapper #contents table#fight td  table.inner {
+    border: 3px solid;
+    padding: 10px;
+    margin: 0 0 30px;
+}
+
+#wrapper #contents table#fight td  table.inner tr {
+}
+
+#wrapper #contents table#fight td  table.inner th {
+    padding: 7px 30px;
+}
+
+#wrapper #contents table#fight td  table.inner td {
+    text-align: left;
+    padding: 7px 30px;
+}
+
+#wrapper #contents div#msgArea {
+    margin-top: 30px;
+    border: 3px solid;
+    width: 100%;
+    height: 115px;
+    padding: 10px 0 0 15px;
+    overflow: auto;
+}
+/* #wrapper #contents #contentsPreview { */
+/*     width: 795px; */
+/*     margin-left: 10px; */
+/* } */
+
+
+/* #wrapper #footer { */
+/*     position: absolute; */
+/*     bottom: 0px; */
+/*     width: 1000px; */
+/*     padding: 15px 0; */
+/*     background: url(../../images/body_bg_02.jpg) repeat ; */
+/* } */
